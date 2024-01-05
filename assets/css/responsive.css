@@ -1,0 +1,23 @@
+/* Navigation for mobile devices */
+@media screen and (max-width: 1150px) {
+  .nav-menu {
+    position: fixed;
+    top: -100%; /* oculta el menu despleglable */
+    left: 0;
+    width: 100%;
+    padding-block: 5.5rem 4.5rem;
+    background-color: hsla(23, 12%, 4%, .2);
+    backdrop-filter: blur(32px);
+    -webkit-backdrop-filter: blur(32px);
+    transition: top .4s;
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
