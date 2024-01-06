@@ -11,13 +11,17 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 
       <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
       <link rel="stylesheet" href="assets/css/01-navbar.css">
       <link rel="stylesheet" href="assets/css/02-home.css">
       <link rel="stylesheet" href="assets/css/03-about.css">
+      <link rel="stylesheet" href="assets/css/04-favorite.css">
+      <link rel="stylesheet" href="assets/css/05-model.css">
+      <link rel="stylesheet" href="assets/css/06-sponsor.css">
+      <link rel="stylesheet" href="assets/css/07-footer.css">
       <link rel="stylesheet" href="assets/css/responsive.css">
 
       <title>Responsive product website</title>
@@ -87,33 +91,119 @@
 
          <!--==================== FAVORITE ====================-->
          <section class="favorite section" id="favorite">
-            
+            <h2 class="section-title">CHOSE YOUR FAVORITE</h2>
+            <div class="favorite-container">
+               <div class="favorite-swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="favorite-article swiper-slide">
+                        <img src="assets/img/favorite-1.png" class="favorite-img">
+                        <span class="favorite-model">Black Model</span>
+                     </article>
+                     <article class="favorite-article swiper-slide">
+                        <img src="assets/img/favorite-2.png" class="favorite-img">
+                        <span class="favorite-model">White Model</span>
+                     </article>
+                     <article class="favorite-article swiper-slide">
+                        <img src="assets/img/favorite-3.png" class="favorite-img">
+                        <span class="favorite-model">Red Model</span>
+                     </article>
+                     <article class="favorite-article swiper-slide">
+                        <img src="assets/img/favorite-4.png" class="favorite-img">
+                        <span class="favorite-model">Teal Model</span>
+                     </article>
+                  </div>
+               </div>
+            </div>
          </section>
 
          <!--==================== MODEL ====================-->
          <section class="model section" id="model">
-            
+            <h2 class="section-title">Model SPECIFICATIONS</h2>
+            <div class="model-container container grid">
+               <div class="model-content">
+                  <img src="assets/img/model-img.png" class="model-img">
+                  <!-- tooltip -->
+                  <div class="model-tooltip model-tooltip-1">
+                     <img src="assets/img/tooltip-right.svg" class="model-tooltip-img">
+                     <span class="model-tooltip-text">Best Comfort</span>
+                  </div>
+                  <div class="model-tooltip model-tooltip-2">
+                     <img src="assets/img/tooltip-right.svg" class="model-tooltip-img">
+                     <span class="model-tooltip-text">Easy Adjustment</span>
+                  </div>
+                  <div class="model-tooltip model-tooltip-3">
+                     <img src="assets/img/tooltip-right.svg" class="model-tooltip-img">
+                     <span class="model-tooltip-text">Fast Charge</span>
+                  </div>
+                  <div class="model-tooltip model-tooltip-4">
+                     <img src="assets/img/tooltip-right.svg" class="model-tooltip-img">
+                     <span class="model-tooltip-text">Custom Audio</span>
+                  </div>
+               </div>
+               <a href="#" class="model-button button">Buy Now <i class="ri-play-circle-fill"></i></a>
+            </div>
          </section>
 
          <!--==================== SPONSOR ====================-->
          <section class="sponsor section">
-            
+            <div class="sponsor-container container grid">
+               <img src="assets/img/sponsor-1.png" class="sponsor-img">
+               <img src="assets/img/sponsor-2.png" class="sponsor-img">
+               <img src="assets/img/sponsor-3.png" class="sponsor-img">
+               <img src="assets/img/sponsor-4.png" class="sponsor-img">
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer-container container grid">
+            <div>
+               <a href="#" class="footer-logo">JBL</a>
+            </div>
+            <div class="footer-data grid">
+               <div>
+                  <h3 class="footer-title">Products</h3>
+                  <ul class="footer-links">
+                     <li><a href="#" class="footer-link">Headphones</a></li>
+                     <li><a href="#" class="footer-link">Earphones</a></li>
+                     <li><a href="#" class="footer-link">Earbuds</a></li>
+                     <li><a href="#" class="footer-link">Accesories</a></li>
+                  </ul>
+               </div>
+               <div>
+                  <h3 class="footer-title">Support</h3>
+                  <ul class="footer-links">
+                     <li><a href="#" class="footer-link">Product Help</a></li>
+                     <li><a href="#" class="footer-link">Register</a></li>
+                     <li><a href="#" class="footer-link">Updates</a></li>
+                     <li><a href="#" class="footer-link">Provides</a></li>
+                  </ul>
+               </div>
+               <div class="footer-group">
+                  <form action="" class="footer-form">
+                     <input type="email" class="footer-input" placeholder="Email">
+                     <a href="" class="footer-button button">Subscribe <i class="ri-send-plane-line"></i></a>
+                  </form>
+                  <div class="footer-social">
+                     <a href="#" target="_blank" class="footer-social-link"><i class="ri-instagram-fill"></i></a>
+                     <a href="#" target="_blank" class="footer-social-link"><i class="ri-facebook-circle-fill"></i></a>
+                     <a href="#" target="_blank" class="footer-social-link"><i class="ri-youtube-fill"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <span class="footer-copyright">&#169; All Rights Reserved By Jhony Souza.</span>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="#" class="scrollup"><i class="ri-arrow-up-s-line"></i></a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <script src="assets/js/scrollreveal.min.js"></script>
 
       <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>

@@ -37,11 +37,21 @@ const activeSections = () => {
 /*=============== COMBINE ALL SCROLL FUNCTIONS ===============*/
 const handleScroll = () => {
   blurHeader()
-  // scrollUp()
+  scrollUp()
   activeSections()
 };
 
 /*=============== ASSIGN TO WINDOW ONSCROLL ===============*/
 window.onscroll = handleScroll
 
+/*=============== SWIPER OPTIONS ===============*/
+let swiperFavorite = new Swiper('.favorite-swiper', {
+  loop: true,
+  slidesPerView: 'auto',
+  centeredSlides: 'auto',
+  grabCursor: true,
+  breakpoints: {
+    768: {slidesPerView : 3,}
+  }
+})
 /*=============== SCROLL REVEAL ANIMATION ===============*/
