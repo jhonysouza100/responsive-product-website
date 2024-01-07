@@ -44,9 +44,9 @@
   font-weight: var(--font-medium);
   border-radius: 4rem;
   position: absolute;
-  /* transform: translate(60px, -40px); */
-  top: -50%;
-  right: -100%;
+  transform: translate(60px, -40px);
+  /* top: -50%;
+  right: -100%; */
   white-space: nowrap;
 }
 

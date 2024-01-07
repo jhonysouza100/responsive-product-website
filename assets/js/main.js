@@ -55,3 +55,17 @@ let swiperFavorite = new Swiper('.favorite-swiper', {
   }
 })
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+let sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 400,
+  // reset: true,
+})
+
+sr.reveal(`.home-social, .favorite-container. sponsor-container. footer`)
+sr.reveal(`.home-title span:nth-child(1)`, {origin: 'left', opacity: 1})
+sr.reveal(`.home-title span:nth-child(3)`, {origin: 'right', opacity: 1})
+sr.reveal(`.home-tooltip, .home-button, .model-button`, {origin: 'bottom'})
+sr.reveal(`.about-data`, {origin: 'left'})
+sr.reveal(`.about-img, .model-tooltip`, {origin: 'right'})

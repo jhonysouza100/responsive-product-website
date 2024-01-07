@@ -44,7 +44,7 @@
 .model-tooltip-1 {top: 5rem; left: 5rem;}
 .model-tooltip-2 {top: 1rem; right: 1.5rem;}
 .model-tooltip-3 {bottom: 1.8rem; left: 3.5rem;}
-.model-tooltip-4 {bottom: 7rem; left: 5rem;}
+.model-tooltip-4 {bottom: 7rem; right: 5rem;}
 
 .model-button {
   justify-self: center;
