@@ -2,7 +2,7 @@
 const NAVMENU = document.querySelector('.nav-menu'),
 NAVTOGGLE = document.querySelector('.nav-toggle'),
 NAVCLOSE = document.querySelector('.nav-close'),
-toggleMenu = () => NAVMENU.classList.toggle('open')
+toggleMenu = () => { NAVMENU.classList.toggle('open') }
 
 NAVTOGGLE.onclick = toggleMenu
 NAVCLOSE.onclick = toggleMenu
